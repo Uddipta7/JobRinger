@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobRinger - Find Your Dream Job</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-briefcase"></i>
+                <span>JobRinger</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Active Employers</a></li>
+                    <li><a href="#">Job Blogs</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Jobseeker Login</a></li>
+                    <li><a href="#">Employer Login</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="btn-login">Login</a>
+                <a href="#" class="btn-register">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Your Dream Job Awaits</h1>
+            <p>Join 10,000+ candidates who found their perfect match with us</p>
+            
+            <div class="search-tabs">
+                <button class="active">Find Jobs</button>
+                <button>Find Candidates</button>
+                <button>Find Companies</button>
+            </div>
+            
+            <div class="tab-content active">
+                <div class="search-box">
+                    <input type="text" placeholder="Job title, keywords, or company">
+                    <input type="text" placeholder="Location">
+                    <button class="btn-search">Search Jobs</button>
+                </div>
+            </div>
+            
+            <div class="popular-tags">
+                <span>Popular Searches:</span>
+                <a href="#">Developer</a>
+                <a href="#">Designer</a>
+                <a href="#">Manager</a>
+                <a href="#">Remote</a>
+                <a href="#">Marketing</a>
+                <a href="#">Finance</a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <h3>40k+</h3>
+                    <p>Jobs Posted</p>
+                </div>
+                <div class="stat-card">
+                    <h3>25k+</h3>
+                    <p>Employers</p>
+                </div>
+                <div class="stat-card">
+                    <h3>154k</h3>
+                    <p>Active Users</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Companies -->
+    <section class="featured-companies">
+        <div class="container">
+            <h2 class="section-title">Trusted by Leading Companies</h2>
+            <p class="section-subtitle">Join thousands of companies who are already hiring the best talent</p>
+            
+            <div class="companies-grid">
+                <div class="company-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png" alt="Google">
+                </div>
+                <div class="company-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/1280px-Microsoft_logo_%282012%29.svg.png" alt="Microsoft">
+                </div>
+                <div class="company-logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCvh-j7HsTHJ8ZckknAoiZMx9VcFmsFkv72g&s" alt="Apple">
+                </div>
+                <div class="company-logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7j-5bxXj8478bgUt35gCMl-_oLzbeTBIlgg&s" alt="Amazon">
+                </div>
+                <div class="company-logo">
+                    <img src="https://cdn.pixabay.com/photo/2021/11/11/12/41/facebook-6786210_1280.png" alt="Facebook">
+                </div>
+                <div class="company-logo">
+                    <img src="https://images.ctfassets.net/drk57q8lctrm/4QgGDTtQYDx6oDaW3aU7KS/34163f3bef6d82fd354a7455d07102eb/flipkart-logo.webp" alt="Flipkart">
+                </div>
+                <div class="company-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.png" alt="Adobe">
+                </div>
+                <div class="company-logo">
+                    <img src="https://download.logo.wine/logo/Uber/Uber-Logo.wine.png" alt="Uber">
+                </div>
+                <div class="company-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="Airbnb">
+                </div>
+                <div class="company-logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8uU7k5jsTvGoHVHyuWfXlRVs9agVeIN2CSQ&s" alt="Spotify">
+                </div>
+                <div class="company-logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx58BFE_jEM8OF_V6ytEA0PvbUIKZNuSAtug&s" alt="Slack">
+                </div>
+                <div class="company-logo">
+                    <img src="https://www.freeiconspng.com/thumbs/logo-twitter-png/logo-twitter-transparent-background-10.png" alt="Twitter">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Categories -->
+    <section class="job-categories">
+        <div class="container">
+            <h2 class="section-title">Browse Job Categories</h2>
+            <p class="section-subtitle">Find the perfect job in your field of expertise</p>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Technology</h3>
+                    <p>1,200+ Jobs Available</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Design</h3>
+                    <p>850+ Jobs Available</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Marketing</h3>
+                    <p>1,050+ Jobs Available</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Finance</h3>
+                    <p>900+ Jobs Available</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Healthcare</h3>
+                    <p>1,300+ Jobs Available</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Education</h3>
+                    <p>750+ Jobs Available</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Hospitality</h3>
+                    <p>600+ Jobs Available</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-hammer"></i>
+                    <h3>Construction</h3>
+                    <p>500+ Jobs Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Jobs -->
+    <section class="featured-jobs">
+        <div class="container">
+            <h2 class="section-title">Featured Job Opportunities</h2>
+            <div class="jobs-grid">
+                <!-- Job 1 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo-small">
+                            <img src="https://yt3.googleusercontent.com/hKhZC-qfqS8IE-lu5AxwDHqQt-mK6XyV-AWLom89Oycio7KouoOVm2yPiLdD7wVWNgxl4KS69g=s900-c-k-c0x00ffffff-no-rj" alt="Atlassian">
+                        </div>
+                        <div class="job-meta">
+                            <h3>Senior UX Designer</h3>
+                            <div class="company-name">Atlassian Inc.</div>
+                            <div class="job-tags">
+                                <span>Full-time</span>
+                                <span>Remote</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i>📍</i>
+                            <span>Mountain View, CA</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>💲</i>
+                            <span>$120,000 - $150,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>🕒</i>
+                            <span>Posted 2 days ago</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>📅</i>
+                            <span>Apply by: 30 Nov</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-skills">
+                            <span>UI/UX</span>
+                            <span>Figma</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <a href="#" class="btn-apply">Apply Now</a>
+                    </div>
+                </div>
+                
+                <!-- Job 2 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo-small">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="Google">
+                        </div>
+                        <div class="job-meta">
+                            <h3>Software Engineer</h3>
+                            <div class="company-name">Amazon Inc.</div>
+                            <div class="job-tags">
+                                <span>Full-time</span>
+                                <span>Seattle</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i>📍</i>
+                            <span>Seattle, WA</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>💲</i>
+                            <span>$110,000 - $140,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>🕒</i>
+                            <span>Posted 1 week ago</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>📅</i>
+                            <span>Apply by: 15 Dec</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-skills">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                        <a href="#" class="btn-apply">Apply Now</a>
+                    </div>
+                </div>
+                
+                <!-- Job 3 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo-small">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlJIOGtHi6yLhWs9gI0Bz1T83KoUzuqCQ7IQ&s" alt="Uber">
+                        </div>
+                        <div class="job-meta">
+                            <h3>Product Manager</h3>
+                            <div class="company-name">Microsoft Corp.</div>
+                            <div class="job-tags">
+                                <span>Full-time</span>
+                                <span>Hybrid</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i>📍</i>
+                            <span>Redmond, WA</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>💲</i>
+                            <span>$130,000 - $160,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>🕒</i>
+                            <span>Posted 3 days ago</span>
+                        </div>
+                        <div class="detail-item">
+                            <i>📅</i>
+                            <span>Apply by: 10 Dec</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-skills">
+                            <span>Product Strategy</span>
+                            <span>Agile</span>
+                            <span>Market Research</span>
+                        </div>
+                        <a href="#" class="btn-apply">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Success Stories</h2>
+            <p class="section-subtitle">What our candidates say about us</p>
+            
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"JobRinger helped me find my dream job at Google within 2 weeks of searching! The platform is incredibly user-friendly and the job recommendations were spot on."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah J.">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>UX Designer at Google</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"I was able to connect with top tech companies through JobRinger. The application process was seamless and I got multiple offers within a month."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael T.">
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Thompson</h4>
+                            <p>Software Engineer at Amazon</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"As a recent graduate, JobRinger made it easy for me to find entry-level positions that matched my skills. I landed my first job within 3 weeks!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily R.">
+                        </div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Marketing Associate at Facebook</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <!-- Mobile App Section -->
+            <div class="mobile-app-section">
+                <h2>APPLY TO JOBS ON-THE-GO</h2>
+                <p class="app-subtitle">Jobringer Mobile App</p>
+                <div class="app-download-buttons">
+                    <div class="download-button">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1200px-Google_Play_Store_badge_EN.svg.png" alt="Google Play">
+                    </div>
+                    <div class="download-button">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png" alt="App Store">
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-grid">
+                <!-- JobRinger Section -->
+                <div class="footer-col">
+                    <h3>JobRinger</h3>
+                    <p>Recognized By :</p>
+                    <img src="https://i0.wp.com/www.numel.in/wp-content/uploads/2021/11/Startup-India-Logo1-02.png?ssl=1" class="startup-india-logo" alt="Startup India">
+                    <div class="social-links">
+                        <p>Follow us on :</p>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Disclaimer Section -->
+                <div class="disclaimer-col">
+                    <div class="disclaimer-card">
+                        <h3><i class="fas fa-exclamation-circle"></i> Disclaimer</h3>
+                        <div class="disclaimer-content">
+                            <p>All Trademarks and Logos are the property of their respective owners, depicted here purely for representation purpose. Jobringer.com has taken all reasonable steps to ensure that information on this site is genuine. Job Applicants are advised to evaluate independently.</p>
+                            <p>Jobringer.com shall not have any responsibility in this regard. All Jobseeker services are strictly designed & meant only for job search assistance and to maximize the chances for the jobseekers to get their dream job.</p>
+                        </div>
+                        
+                        <div class="policy-links">
+                            <a href="#"><i class="fas fa-file-contract"></i> Terms</a>
+                            <a href="#"><i class="fas fa-lock"></i> Privacy</a>
+                            <a href="#"><i class="fas fa-exchange-alt"></i> Refund</a>
+                            <a href="#"><i class="fas fa-info-circle"></i> About</a>
+                            <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+                            <a href="#"><i class="fas fa-question-circle"></i> FAQ</a>
+                            <a href="#"><i class="fas fa-blog"></i> Blogs</a>
+                        </div>
+                        
+                        <div class="copyright">
+                            <p>© 2025 Jobtech Ventures Private Limited. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
