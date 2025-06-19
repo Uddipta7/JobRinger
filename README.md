@@ -4,7 +4,8 @@ JobRinger is a **responsive job portal landing page** built entirely with **HTML
 
 🌐 **[Live Demo →](https://uddipta7.github.io/JobRinger/)**
 
-![JobRinger Screenshot](./382153ef-3b01-4943-a2f0-432d64ed20cc.png)
+![JobRinger Screenshot](![Screenshot 2025-06-19 105731](https://github.com/user-attachments/assets/d88d9657-6fac-4d6c-a1f5-319db9f92be3)
+)
 
 ---
 
